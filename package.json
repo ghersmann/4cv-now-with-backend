@@ -11,17 +11,26 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "aws-amplify": "^6.10.2",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^1.8.0",
+    "@aws-amplify/backend-cli": "^1.4.2",
     "@rushstack/eslint-patch": "^1.8.0",
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/eslint-config-prettier": "^9.0.0",
+    "aws-cdk": "^2.171.1",
+    "aws-cdk-lib": "^2.171.1",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.24.0",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
     "vite": "^5.3.1",
     "vite-plugin-vue-devtools": "^7.3.1"
   }
