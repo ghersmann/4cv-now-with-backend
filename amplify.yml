@@ -17,16 +17,3 @@ frontend:
   cache:
     paths:
       - .npm/**/*
- customHeaders:
-    - pattern: '**/*.woff2'
-      headers:
-        - key: Content-Type
-          value: font/woff2
-    - pattern: '**/*.woff'
-      headers:
-        - key: Content-Type
-          value: font/woff
-    - pattern: '**/*.otf'
-      headers:
-        - key: Content-Type
-          value: font/otf
