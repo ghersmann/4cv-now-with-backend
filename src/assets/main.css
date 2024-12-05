@@ -6,23 +6,23 @@
 
 @font-face {
   font-family: 'Questa-Slab';
-  src: url(./fonts/questa_slab_regular-webfont.otf) format(opentype);
-  src: url(./fonts/questa_slab_regular-webfont.woff) format(woff);
-  src: url(./fonts/questa_slab_regular-webfont.woff2) format(woff2);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/questa_slab_regular-webfont.otf) format(opentype);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/questa_slab_regular-webfont.woff) format(woff);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/questa_slab_regular-webfont.woff2) format(woff2);
 }
 
 @font-face {
   font-family: 'Work-Sans-ExtraLight';
-  src: url(./fonts/worksans-extralight-webfont.otf) format(opentype);
-  src: url(./fonts/worksans-extralight-webfont.woff) format(woff);
-  src: url(./fonts/worksans-extralight-webfont.woff2) format(woff2);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-extralight-webfont.otf) format(opentype);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-extralight-webfont.woff) format(woff);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-extralight-webfont.woff2) format(woff2);
 }
 
 @font-face {
   font-family: 'Work-Sans-Light';
-  src: url(./fonts/worksans-light-webfont.otf) format(opentype);
-  src: url(./fonts/worksans-light-webfont.woff) format(woff);
-  src: url(./fonts/worksans-light-webfont.woff2) format(woff2);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-light-webfont.otf) format(opentype);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-light-webfont.woff) format(woff);
+  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-light-webfont.woff2) format(woff2);
 }
 
 :root {
@@ -44,33 +44,33 @@ body {
 }
 
 h1 {
-  font-family: 'Questa-Slab';
+  font-family: 'Questa-Slab, Garamond, Times, Times New Roman, serif';
   font-style: normal;
   font-weight: 400;
   font-size: 2.2rem;
 }
 
 h2 {
-  font-family: 'Work-Sans-Light';
+  font-family: 'Work-Sans-Light, Helvetica, Arial, sans-serif';
   font-style: normal;
   font-weight: 900;
   font-size: 1.8rem;
 }
 h3 {
-  font-family: 'Work-Sans-Light';
+  font-family: 'Work-Sans-Light, Helvetica, Arial, sans-serif';
   font-style: normal;
   font-weight: 200;
   font-size: 1.2rem;
 }
 h4 {
-  font-family: 'Work-Sans-ExtraLight';
+  font-family: 'Work-Sans-ExtraLight, Helvetica, Arial, sans-serif';
   font-style: normal;
   font-weight: 100;
   font-size: 1.5rem;
 }
 
 p {
-  font-family: 'Work-Sans-Light';
+  font-family: 'Work-Sans-Light, Helvetica, Arial, sans-serif';
   font-style: normal;
   font-weight: 300;
   font-size: 1.2rem;
@@ -79,7 +79,7 @@ p {
 
 a,
 .routerlink {
-  font-family: 'Work-Sans-Light';
+  font-family: 'Work-Sans-Light, Helvetica, Arial, sans-serif';
   font-style: normal;
   font-weight: 300;
   font-size: 1.4rem;
