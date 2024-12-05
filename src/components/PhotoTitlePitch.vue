@@ -1,5 +1,6 @@
 <template>
   <article class="photo-title-pitch">
+    <div class="photo-name">
     <img
       class="gh-photo"
       src="../assets/img/bewerbungsbild-sven-gustav-hersmann-0003-medres.jpg"
@@ -9,7 +10,8 @@
       <h1>Gustav Hersmann</h1>
       <li class="pitch-text">Frontend Developer</li>
       <li class="pitch-text">Web Designer</li>
-      </ul>
+    </ul>
+  </div>
     <ul class="contact-header">
     <h2>Contact</h2>
       <li><a class="pitch-text" href="mailto:gustav@gustavhersmann.com">gustav@gustavhersmann.com</a></li>
@@ -20,14 +22,13 @@
   </article>
 </template>
 
-<style scoped>
-.photo-title-pitch {
-display: flex;
-align-items: flex-start;
-width: 100%;
-margin: 0 auto;
+<script>
+export default {
+  name: 'PhotoTitlePitch',
 }
+</script>
 
+<style scoped>
 .gh-photo {
   margin-left: 0;
   width: 120px;
@@ -59,6 +60,4 @@ border-right: 0.2rem solid var(--dark-sticky-header);
 h1, h2 {
   margin: 0;
 }
-
-
 </style>

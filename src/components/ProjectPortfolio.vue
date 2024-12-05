@@ -1,5 +1,5 @@
 <template>
-  <article class="project-portfolio">
+  <article class="project-portfolio left-line">
     <h1>Portfolio</h1>
     <section class="portfolio-grid-column">
       <div v-for="(project, index) in portfolioProjects" :key="index" class="portfolio-item">

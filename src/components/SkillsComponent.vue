@@ -1,5 +1,5 @@
 <template>
-  <article class="skills-component">
+  <article class="skills-component left-line">
     <h1>Skills</h1>
     <section class="logos-grid">
       <div class="skills-grid-column">
@@ -43,11 +43,8 @@
           <img src="@/assets/img/logos/MongoDB_Fores-Green.svg" alt="MongoDB Logotype" width="130px" /><br />
           <h3>MongoDB</h3>
         </section>
+     
         <section class="skill-item">
-          <img src="@/assets/img/logos/aws-logo.png" alt="AWS Logotype" height="50px" /><br />
-          <h3>AWS</h3>
-        </section>
-        <section class="skill-item skill-item-node">
           <img
             src="@/assets/img/logos/Node.js_logo.svg"
             alt="Node.JS Logotype"
@@ -55,48 +52,26 @@
           /><br />
           <h3>Node.JS</h3>
         </section>
-        <section class="skill-item skill-item-npm">
+        <section class="skill-item">
           <img src="@/assets/img/logos/Npm-logo.svg" alt="NPM Logotype" height="40px" /><br />
           <h3>NPM</h3>
         </section>
+        <section class="skill-item">
+          <img src="@/assets/img/logos/aws-logo.png" alt="AWS Logotype" height="50px" /><br />
+          <h3>Amazon Web Services</h3>
+        </section>
       </div>
     </section>
-
-    <img :src="arrowStore.currentArrow" alt="Decorative Arrow" class="arrow" />
   </article>
 </template>
 
 <script>
-import { useArrowStore } from '@/stores/arrowStore.js'
-import { onMounted, onBeforeUnmount } from 'vue'
 export default {
   name: 'ExperienceComponent',
-
-  setup() {
-    const arrowStore = useArrowStore()
-
-    const updateArrow = () => {
-      arrowStore.updateArrow()
-    }
-
-    onMounted(() => {
-      updateArrow()
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateArrow)
-      window.addEventListener('resize', updateArrow)
-    })
-
-    onBeforeUnmount(() => {
-      window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', updateArrow)
-      window.removeEventListener('resize', updateArrow)
-    })
-
-    return { arrowStore }
-  }
 }
 </script>
 
 <style scoped>
-h1,
 h2,
 h3,
 h4 {
