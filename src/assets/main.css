@@ -4,29 +4,13 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'Questa-Slab';
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/questa_slab_regular-webfont.otf) format(opentype);
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/questa_slab_regular-webfont.woff) format(woff);
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/questa_slab_regular-webfont.woff2) format(woff2);
-}
-
-@font-face {
-  font-family: 'Work-Sans-ExtraLight';
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-extralight-webfont.otf) format(opentype);
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-extralight-webfont.woff) format(woff);
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-extralight-webfont.woff2) format(woff2);
-}
-
-@font-face {
-  font-family: 'Work-Sans-Light';
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-light-webfont.otf) format(opentype);
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-light-webfont.woff) format(woff);
-  src: url(https://d2qhgooipbck2k.cloudfront.net/fonts/worksans-light-webfont.woff2) format(woff2);
-}
-
 :root {
   --dark-sticky-header: #333333;
+}
+
+.font-debug {
+  font-family: 'BlackoutTwoAM', 'Questa-Slab', 'Work-Sans-ExtraLight', 'Work-Sans-Light';
+  visibility: hidden;
 }
 
 html {
