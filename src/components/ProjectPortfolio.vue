@@ -65,13 +65,4 @@ h2 {
   margin-right: auto;
   margin-bottom: 4rem;
 }
-
-.portfolio-img {
-  height: 8rem;
-  margin: 0.3rem;
-}
-.portfolio-imgs {
-  display: flex;
-  justify-content: space-between;
-}
 </style>

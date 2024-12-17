@@ -3,7 +3,7 @@
     <article
       v-for="(experience, index) in experiences"
       :key="index"
-      class="experience-item left-line"
+      class="experience-item"
     >
       <section class="experience-title">
         <h2>{{ experience.title }}</h2>
@@ -63,9 +63,8 @@ h4 {
 .experience-title {
   display: flex;
   align-items: baseline;
-  gap: 3rem;
+  gap: 2rem;
 }
-
 
 .link-item {
   display: block; 
@@ -73,8 +72,7 @@ h4 {
   font-style: normal;
   font-weight: 300;
   font-size: 1.2rem;
-  line-height: 2rem;
+  line-height: 1.7rem;
   margin-bottom: 1rem;
 }
-
 </style>
