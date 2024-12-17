@@ -1,5 +1,5 @@
 <template>
-  <article class="skills-component left-line">
+  <article class="skills-component">
     <h1>Skills</h1>
     <section class="logos-grid">
       <div class="skills-grid-column">
@@ -36,15 +36,19 @@
           <h3>Git</h3>
         </section>
         <section class="skill-item">
-          <img src="@/assets/img/logos/Figma-logo.svg" alt="Figma Logotype" height="50px" /><br />
-          <h3>Figma</h3>
-        </section>
-        <section class="skill-item">
           <img src="@/assets/img/logos/MongoDB_Fores-Green.svg" alt="MongoDB Logotype" width="130px" /><br />
           <h3>MongoDB</h3>
         </section>
-     
         <section class="skill-item">
+          <img src="@/assets/img/logos/Figma-logo.svg" alt="Figma Logotype" height="50px" /><br />
+          <h3>Figma</h3>
+        </section>
+      
+        <section class="skill-item">
+          <img src="@/assets/img/logos/aws-logo.png" alt="AWS Logotype" height="50px" /><br />
+          <h3>AWS</h3>
+        </section>
+        <section class="skill-item skill-item-node">
           <img
             src="@/assets/img/logos/Node.js_logo.svg"
             alt="Node.JS Logotype"
@@ -52,13 +56,9 @@
           /><br />
           <h3>Node.JS</h3>
         </section>
-        <section class="skill-item">
+        <section class="skill-item skill-item-npm">
           <img src="@/assets/img/logos/Npm-logo.svg" alt="NPM Logotype" height="40px" /><br />
           <h3>NPM</h3>
-        </section>
-        <section class="skill-item">
-          <img src="@/assets/img/logos/aws-logo.png" alt="AWS Logotype" height="50px" /><br />
-          <h3>Amazon Web Services</h3>
         </section>
       </div>
     </section>
@@ -72,6 +72,7 @@ export default {
 </script>
 
 <style scoped>
+h1,
 h2,
 h3,
 h4 {

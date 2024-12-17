@@ -1,6 +1,6 @@
 <template>
   <article class="photo-title-pitch">
-    <div class="photo-name">
+    <section class="photo-title-section">
     <img
       class="gh-photo"
       src="../assets/img/bewerbungsbild-sven-gustav-hersmann-0003-medres.jpg"
@@ -10,8 +10,8 @@
       <h1>Gustav Hersmann</h1>
       <li class="pitch-text">Frontend Developer</li>
       <li class="pitch-text">Web Designer</li>
-    </ul>
-  </div>
+      </ul>
+    </section>
     <ul class="contact-header">
     <h2>Contact</h2>
       <li><a class="pitch-text" href="mailto:gustav@gustavhersmann.com">gustav@gustavhersmann.com</a></li>
@@ -21,12 +21,6 @@
     </ul>
   </article>
 </template>
-
-<script>
-export default {
-  name: 'PhotoTitlePitch',
-}
-</script>
 
 <style scoped>
 .gh-photo {
@@ -47,14 +41,6 @@ export default {
   font-size: 1.2rem;
   line-height: 1.7rem;
   text-decoration: none;
-}
-
-.contact-header {
-text-align: right;
-margin-right: 0;
-margin-top: auto;
-padding-right: 0.4rem;
-border-right: 0.2rem solid var(--dark-sticky-header);
 }
 
 h1, h2 {

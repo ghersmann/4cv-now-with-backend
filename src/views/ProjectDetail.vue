@@ -58,9 +58,7 @@ export default {
       selectedImage.value = null
     }
 
-
-
-
+   
     return {
       project,
       isModalOpen,
